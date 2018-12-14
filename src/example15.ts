@@ -1,5 +1,5 @@
-class Preference {
+class PrivateClass {
   private constructor() {}
 }
 
-// const p: Preference = new Preference(); (X)
+// const p: PrivateClass = new PrivateClass(); (X)
