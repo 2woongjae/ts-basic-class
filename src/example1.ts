@@ -3,7 +3,7 @@ class Person1 {
   age!: number;
 }
 
-const person: Person1 = new Person1();
-console.log(person); // Person1 {}
-person.age = 35;
-console.log(person.name); // undefined
+const person1: Person1 = new Person1();
+console.log(person1); // Person1 {}
+person1.age = 36;
+console.log(person1.name); // undefined
