@@ -1,11 +1,11 @@
-class Parent1 {
+class Parent5 {
   private privateProp!: string;
   protected protectedProp!: string;
 
   constructor() {}
 }
 
-class Child1 extends Parent1 {
+class Child5 extends Parent5 {
   constructor() {
     super();
 
@@ -14,5 +14,5 @@ class Child1 extends Parent1 {
   }
 }
 
-const child1 = new Child1();
-console.log(child1);
+const child5 = new Child5();
+console.log(child5); // Child5 { protectedProp: 'protected' }
